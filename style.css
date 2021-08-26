@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Urbanist:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Urbanist:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: sans-serif;
+}
+#header {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+#vid {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#video::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+}
+#content {
+  z-index: 10;
+}
+/*#header::before {
+  content: " ";
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("spacex.jpg");
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+}*/
+nav {
+  width: 100%;
+  height: 115px;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+}
+#logo {
+  cursor: pointer;
+  transition: opacity 0.5s;
+  margin-left: 200px;
+}
+#logo:hover {
+  opacity: 0.7;
+  transition: 1s;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+ul li a {
+  margin: 40px;
+  color: rgba(0, 0, 0, 0.83);
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 18px;
+  transition: opacity 1s;
+  text-decoration: none;
+  cursor: pointer;
+}
+ul li a:hover {
+  opacity: 0.7;
+  transition: opacity 1s;
+}
+.align {
+  margin-left: 10%;
+}
+h1 {
+  color: white;
+  font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 15%;
+  font-size: 70px;
+  z-index: -1;
+}
+#para {
+  font-size: 35px;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 20px;
+}
+#contact {
+  border: 1px solid white;
+  padding: 10px 30px;
+  display: inline-block;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 20px;
+  transition: opacity, padding 1s;
+  color: black;
+  letter-spacing: 1px;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 50px;
+}
+#contact:hover {
+  transition: 1s;
+  opacity: 0.5;
+  padding: 10px 40px;
+}
+
+#midtitl {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 28px;
+}
+#cardsec {
+  display: flex;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.cards {
+  border: 1px solid rgba(204, 204, 204, 0.576);
+  width: 550px;
+  height: 560px;
+  margin: 50px;
+}
+.cardtitl {
+  margin-top: 35px;
+  font-weight: bolder;
+  font-size: 24px;
+  text-align: center;
+}
+.cardpara {
+  font-weight: lighter;
+  margin-top: 15px;
+  font-size: 22px;
+  text-align: center;
+}
+.cardurl {
+  text-align: center;
+  transition: opacity 0.5s;
+  margin-top: 20px;
+}
+.cardurl a {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(156, 98, 209);
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.cardurl:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+#back {
+  background-color: white;
+  padding-top: 80px;
+}
+#midsec {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  padding-left: 105px;
+}
+
+#self {
+  width: 850px;
+  height: 600px;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid rgba(204, 204, 204, 0.576);
+}
+#self img {
+  width: 100%;
+  height: 100%;
+}
+.midcard {
+  top: 0;
+  left: 0;
+  color: white;
+  padding-left: 50px;
+  width: 35%;
+  height: 40%;
+  position: absolute;
+  top: 285%;
+  left: 52%;
+  background: url("https://rocketman.learnwagtail.com/static/images/grey-pattern.b4f896f3f272.png");
+}
+.midcard p:nth-of-type(1) {
+  font-size: 35px;
+  font-family: "Lato", sans-serif;
+  margin-top: 60px;
+}
+.midcard p:nth-of-type(2) {
+  font-size: 23px;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  margin-top: 25px;
+}
+.midcard a {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  border: 1px solid white;
+  background-color: white;
+  padding: 15px 40px;
+  transition: opacity 1s;
+}
+.midcard a:hover {
+  opacity: 0.6;
+  transition: opacity 1s;
+}
+#land {
+  display: flex;
+}
+#self {
+  flex-basis: 60%;
+}
