@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Urbanist:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 * {
   margin: 0;
   box-sizing: border-box;
@@ -190,7 +191,7 @@ h1 {
   padding-left: 105px;
 }
 
-#self {
+.self {
   width: 900px;
   height: 600px;
   position: relative;
@@ -200,15 +201,15 @@ h1 {
   bottom: 0;
   border: 1px solid rgba(204, 204, 204, 0.576);
 }
-#self img {
+.self img {
   width: 100%;
   height: 100%;
 }
-#self .midcard {
+.self .midcard {
   color: white;
   padding-left: 50px;
-  padding-right: 5px;
-  width: 67%;
+  padding-right: 10px;
+  width: 65%;
   height: 48%;
   position: absolute;
   top: 60%;
@@ -216,7 +217,7 @@ h1 {
   background: url("https://rocketman.learnwagtail.com/static/images/grey-pattern.b4f896f3f272.png");
 }
 @media (max-width: 1140px) {
-  #self .midcard {
+  .self .midcard {
     height: 58%;
   }
 }
@@ -246,10 +247,62 @@ h1 {
   opacity: 0.6;
   transition: opacity 1s;
 }
-#land {
+.land {
   display: flex;
   margin-bottom: 150px;
 }
-#self {
+.self {
   flex-basis: 60%;
+}
+#clean {
+  left: 30%;
+}
+#cleaning {
+  left: -35%;
+  top: 62%;
+}
+#gas {
+  height: 55%;
+  width: 70%;
+  padding-right: 20px;
+}
+@media (max-width: 1140px) {
+  #gas {
+    height: 73%;
+    width: 65%;
+  }
+}
+#robo {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  padding: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+#robo p:nth-of-type(1) {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+#robo p a {
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #814ebf;
+  background: #814ebf;
+  letter-spacing: 1px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 17px 48px;
+  transition: background-color 0.5s;
+}
+#robo p a:hover {
+  background-color: #6e3da9;
+  border-color: #683aa0;
+  transition: 0.5s;
+}
+#robo p a:active {
+  outline: 4px solid #814ebf82;
+}
+#robo p a:focus {
+  outline: 4px solid #814ebf82;
 }
