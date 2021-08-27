@@ -191,7 +191,7 @@ h1 {
 }
 
 #self {
-  width: 900px;
+  width: 950px;
   height: 600px;
   position: relative;
   top: 0;
@@ -208,7 +208,7 @@ h1 {
   color: white;
   padding-left: 50px;
   width: 65%;
-  height: 52%;
+  height: 48%;
   position: absolute;
   top: 60%;
   left: 78%;
