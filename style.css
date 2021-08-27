@@ -205,21 +205,19 @@ h1 {
   height: 100%;
 }
 .midcard {
-  top: 0;
-  left: 0;
   color: white;
   padding-left: 50px;
   width: 35%;
   height: 40%;
   position: absolute;
-  top: 285%;
+  top: 305%;
   left: 52%;
   background: url("https://rocketman.learnwagtail.com/static/images/grey-pattern.b4f896f3f272.png");
 }
 .midcard p:nth-of-type(1) {
   font-size: 35px;
   font-family: "Lato", sans-serif;
-  margin-top: 60px;
+  margin-top: 45px;
 }
 .midcard p:nth-of-type(2) {
   font-size: 23px;
