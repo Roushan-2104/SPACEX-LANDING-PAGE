@@ -191,7 +191,7 @@ h1 {
 }
 
 #self {
-  width: 950px;
+  width: 900px;
   height: 600px;
   position: relative;
   top: 0;
@@ -207,12 +207,18 @@ h1 {
 #self .midcard {
   color: white;
   padding-left: 50px;
-  width: 65%;
+  padding-right: 5px;
+  width: 60%;
   height: 48%;
   position: absolute;
   top: 60%;
   left: 78%;
   background: url("https://rocketman.learnwagtail.com/static/images/grey-pattern.b4f896f3f272.png");
+}
+@media (max-width: 1140px) {
+  #self .midcard {
+    height: 58%;
+  }
 }
 .midcard p:nth-of-type(1) {
   font-size: 35px;
@@ -242,8 +248,8 @@ h1 {
 }
 #land {
   display: flex;
+  margin-bottom: 150px;
 }
 #self {
   flex-basis: 60%;
 }
- 
