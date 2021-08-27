@@ -191,7 +191,7 @@ h1 {
 }
 
 #self {
-  width: 850px;
+  width: 900px;
   height: 600px;
   position: relative;
   top: 0;
@@ -207,8 +207,8 @@ h1 {
 #self .midcard {
   color: white;
   padding-left: 50px;
-  width: 60%;
-  height: 48%;
+  width: 65%;
+  height: 52%;
   position: absolute;
   top: 60%;
   left: 78%;
