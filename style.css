@@ -7,6 +7,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 * {
   margin: 0;
   box-sizing: border-box;
@@ -194,7 +195,6 @@ h1 {
   margin-bottom: 70px;
   padding-left: 105px;
 }
-
 .self {
   width: 900px;
   height: 600px;
@@ -366,4 +366,42 @@ h1 {
 #midfoot div p a:hover {
   background-color: rgb(208, 206, 206);
   transition: 1s;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 90px;
+  display: flex;
+}
+footer div {
+  margin: 20px;
+  margin-right: 100px;
+}
+footer div p:nth-of-type(1) {
+  color: #858585;
+  letter-spacing: 1px;
+  font-family: "PT Sans", sans-serif;
+  font-size: 13px;
+}
+footer div #copy {
+  color: #858585;
+}
+footer div p {
+  margin-bottom: 20px;
+  font-family: "PT Sans", sans-serif;
+}
+footer div p a {
+  margin-left: 10px;
+}
+footer div:nth-of-type(4) p a:hover {
+  opacity: 0.7;
+}
+footer div:nth-of-type(1) p a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  margin-left: -1%;
+  color: white;
 }
