@@ -3,6 +3,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap");
 * {
   margin: 0;
   box-sizing: border-box;
@@ -274,7 +278,7 @@ h1 {
 }
 #robo {
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 120px;
   padding: 20px;
   padding-top: 20px;
   text-align: center;
@@ -305,4 +309,61 @@ h1 {
 }
 #robo p a:focus {
   outline: 4px solid #814ebf82;
+}
+#quote {
+  text-align: center;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-bottom: 120px;
+}
+#quote p:nth-of-type(1) {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 30px;
+}
+#quote p:nth-of-type(2) {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  margin-top: 15px;
+  font-size: 18px;
+  word-spacing: 2%;
+  font-weight: bold;
+}
+#midfoot {
+  background-color: #814ebf;
+  color: white;
+  display: flex;
+  padding: 50px;
+}
+#midfoot #statement p:nth-of-type(1) {
+  font-weight: bolder;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+#midfoot #statement p:nth-of-type(2) {
+  font-size: 24px;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+#midfoot #statement {
+  flex-basis: 64%;
+  margin-left: 3%;
+}
+#midfoot div p a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  padding: 15px 45px;
+  transition: background-color 1s;
+}
+#midfoot div:nth-of-type(2) {
+  padding-left: 150px;
+  padding-top: 60px;
+}
+#midfoot div p a:hover {
+  background-color: rgb(208, 206, 206);
+  transition: 1s;
 }
