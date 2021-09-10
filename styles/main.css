@@ -404,3 +404,6 @@ footer div:nth-of-type(1) p a {
   margin-left: -1%;
   color: white;
 }
+#toogle {
+  display: none;
+}
