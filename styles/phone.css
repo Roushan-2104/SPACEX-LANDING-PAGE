@@ -155,29 +155,4 @@
   footer div:nth-of-type(3) p {
     font-size: 18px;
   }
-  #toogle {
-    padding-bottom: 20px;
-  }
-  #toogle p a {
-    text-decoration: none;
-    color: black;
-  }
-  #toogle p {
-    margin-left: 30px;
-    margin-top: 20px;
-  }
-  #cross {
-    display: none;
-    border: 2px solid rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    padding: 5px 13px;
-    transition: border-color 0.1s;
-  }
-  #cross:active {
-    border-color: coral;
-    transition: 0.1s;
-  }
-  #cross:focus {
-    border-color: coral;
-  }
 }
